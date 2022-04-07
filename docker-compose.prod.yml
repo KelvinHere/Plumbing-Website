@@ -3,13 +3,11 @@ version: '3.8'
 services:
   web:
     build: .
-    command: python manage.py runserver 0.0.0.0:8000
-    volumes:
-      - ./work
+    command: gunicorn website.wsgi:application --bind 0.0.0.0:8000
     ports:
       - 8000:8000
     env_file:
-      - .env
+      - .env.prod
     depends_on:
       - db
   db:
@@ -17,7 +15,7 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data/ # Allow data to persist when container is restarted
     env_file:
-      - .env
+      - .env.prod.db
 
 volumes:
   postgres_data:

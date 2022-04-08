@@ -1,0 +1,238 @@
+html, body
+{
+    height: 100%;
+    font-family: 'Lato';
+    font-size: 16px;
+}
+
+.excluding-footer {
+    min-height: calc(100vh - 37px); 
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+.main-top-logo {
+    position: absolute;
+    right: 0px;
+    top: 6px;
+}
+
+.bg-dgblue {
+    background-color: rgb(2, 48, 89);
+}
+
+.bg-dgorange {
+    background-color: rgb(230, 76, 12)
+}
+
+.text-dgorange {
+    color: rgb(230, 76, 12);
+}
+
+.text-dgblue {
+    color: rgb(2, 48, 89);
+}
+
+/* ------------------------------------------- Nav */
+.query-text-input:focus-visible,
+.query-text-input:target {
+    box-shadow: none;
+    border-color: lightgray;
+}
+
+/* ------------------------------------------- Buttons */
+.btn-dg {
+    background: rgb(2, 48, 89);
+    color: white;
+}
+
+.btn-dg:hover,
+.btn-dg:active,
+.btn-dg:focus {
+    background: rgb(230, 76, 12);
+    color: white;
+}
+
+.btn-dgorange {
+    background: rgb(230, 76, 12);
+    color: white;
+}
+
+.btn-outline-dg {
+    background: white;
+    color: rgb(2, 48, 89) !important;
+    border: 1px solid rgb(2, 48, 89);
+}
+
+.btn-outline-dg:hover,
+.btn-outline-dg:active,
+.btn-outline-dg:focus {
+    background: rgb(2, 48, 89);
+    color: white !important;
+}
+
+.shop-filter-selector {
+    border: none;
+    border-radius:5px 0px 0px 5px;
+    background: rgb(230, 76, 12);
+    color: white;
+    padding-left: 5px;
+}
+
+.shop-filter-selector:focus,
+.shop-filter-selector:active,
+.shop-filter-selector:hover {
+    outline: none;
+}
+
+.query-range-search {
+    border-radius: 0px 5px 5px 0px;
+}
+
+.shop-filter-selector
+{
+    text-align-last: center;
+}
+
+.navbar-nav a {
+    background-color: rgb(2, 48, 89);
+    color: white;
+    transition: 0.3s;
+  }
+  
+.navbar-nav a:hover {
+    background-color: rgb(230, 76, 12);
+    opacity: 1;
+    color: white;
+}
+
+/* ------------------------------------------ Misc */
+.top-link {
+    z-index:10;
+}
+
+.w-85 {
+    width: 85% !important;
+}
+
+/* ----------------------------------------------------- carousel setup */
+.mobile-image {
+    display: block;
+}
+
+.desktop-image {
+    display: none;
+}
+
+.carousel-caption {
+    background-color: rgb(2, 48, 89);
+    position: relative;
+    border-radius: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.carousel-indicators {
+    margin: 0px;
+}
+
+/* ---------------------------------------------------- Product cards */
+.card-img-top {
+    max-width: 100%;
+    height: 30vh;
+    object-fit: contain;   
+}
+
+.product-card-name-link {
+    color: black;
+}
+
+.product-card-name-link:link {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.product-card-name-link:hover {
+    color: rgb(2, 48, 89);
+}
+/* ---------------------------------------------------- Product modal */
+.product-modal-image {
+    height: 50vh;
+}
+
+/*------------------------------------------------------ Responsive Google maps */
+.map-responsive{
+    position:relative;
+    overflow:hidden;
+    padding-bottom:50%;
+    height:0;
+}
+.map-responsive iframe{
+    position:absolute;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+}
+
+/* ----------------------------------------------------- Media Queries */
+
+@media (min-width: 768px) {
+    .carousel-caption {
+        position: absolute;
+        border-radius: 10px;
+        left: 30%;
+        right: 30%;
+        bottom: 20px;
+        background-color: rgba(2, 48, 89, 0.8);
+    }
+
+    .carousel-image {
+        height: 30vw;
+    }
+
+    .carousel-indicators {
+        margin-bottom: 1rem;
+        margin-right: 15%;
+        margin-left: 15%;
+    }
+
+    .mobile-image {
+        display: none;
+    }
+    
+    .desktop-image {
+        display: block;
+    }
+}
+
+@media (min-width: 992px) {
+    .fixed-top-desktop-only {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+        padding: 0px;
+    }
+
+    .main-top-logo {
+        position: relative;
+        right: 0px;
+        top: 0px;
+    }
+
+    .navbar {
+        padding: 0px;
+    }
+
+    .header-container {
+        padding-top: 125px;
+    }
+}

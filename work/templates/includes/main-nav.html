@@ -1,0 +1,59 @@
+<div class="collapse navbar-collapse bg-dgblue mt-0" id="main-nav">
+    <ul class="navbar-nav w-auto mx-auto px-3">
+        <li class="nav-item d-block d-md-none d-sm-none">
+            <a class="logo-font font-weight-bold nav-link text-white px-4 text-center-center" href="{% url 'home' %}'" id="home-link">
+                Home
+            </a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-white px-4 text-center-center" href="{% url 'home' %}">
+                Home
+            </a>
+        </li>
+        
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-white px-4 text-center-center" href="#">
+                Plumbing
+            </a>
+        </li>
+        
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-white px-4 text-center-center" href="#" id="heating-link" data-toggle="dropdown" aria-haspoppup="true" aria-expanded="false">
+                Heating
+            </a>
+            <div class="dropdown-menu border-0 bg-dgblue" aria-labelledby="heating-link">
+                <a href="#" class="dropdown-item text-white">Heating Information</a>
+                <hr class="text-dg-orange">
+                <a href="#" class="dropdown-item text-white">Heatpumps</a>
+                <a href="#" class="dropdown-item text-white">Renewables</a>
+                <a href="#" class="dropdown-item text-white">Stoves</a>
+                <a href="#" class="dropdown-item text-white">Heating Spares</a>
+
+            </div>
+        </li>
+        
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-white px-4 text-center-center" href="#" id="bathroom-link" data-toggle="dropdown" aria-haspoppup="true" aria-expanded="false">
+                Bathroom
+            </a>
+            <div class="dropdown-menu border-0 bg-dgblue" aria-labelledby="bathroom-link">
+                <a href="#" class="dropdown-item text-white">Bathrooms</a>
+                <hr class="text-white">
+                {% for item in categories %}
+                <a href="#?shop_filter=Bathroom&category={{ item }}" class="dropdown-item text-white">{{ item }}</a>
+                {% endfor %}
+            </div>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-white px-4 text-center-center" href="#" id="info-link" data-toggle="dropdown" aria-haspoppup="true" aria-expanded="false">
+                Info
+            </a>
+            <div class="dropdown-menu border-0 bg-dgblue" aria-labelledby="info-link">
+                <a href="#" class="dropdown-item text-white">About Us</a>
+                <a href="#" class="dropdown-item text-white">Contact</a>
+                <a href="#" class="dropdown-item text-white">Deliveries & Returns</a>
+            </div>
+        </li>
+    </ul>
+</div>

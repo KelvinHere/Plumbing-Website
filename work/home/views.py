@@ -1,3 +1,11 @@
-from django.shortcuts import render
+from django.shortcuts import render, HttpResponse
+from products.models import Product
+import json
 
-# Create your views here.
+def home(request):
+    data = Product.objects.all()
+    template = "home/index.html"
+    context = {
+        'data': data,
+    }
+    return render(request, template, context)

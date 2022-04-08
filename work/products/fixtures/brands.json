@@ -1,0 +1,10 @@
+[
+    {
+        "model": "products.Brand",
+        "pk": 1,
+        "fields": {
+            "name": "sonas",
+            "code": "son"
+        }
+    }
+]

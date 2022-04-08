@@ -1,0 +1,2002 @@
+[
+    {
+        "model": "products.Product",
+        "pk": 1,
+        "fields": {
+            "description": "Night Sky Blue Matt\r\n60 countertop vanity unit\r\nW600 x D450mm with oak open shelf\r\n1 drawer with brushed gold handle",
+            "name": "Malmo 60cm Countertop Basin Night Sky Blue Matt - Brushed Gold handle",
+            "price": "495",
+            "sku": "GMAL60CTNB",
+            "image_url": "GMAL60CTNB - gmal60ctnb-malmo-night-sky-blue-matt-60-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 2,
+        "fields": {
+            "description": "Night Sky Blue Matt\r\n60 countertop vanity unit\r\nW600 x D450mm with oak open shelf\r\n1 drawer with matt black handle",
+            "name": "Malmo 60cm Countertop Basin Night Sky Blue Matt - Matt Black handle",
+            "price": "495",
+            "sku": "BMAL60CTNB",
+            "image_url": "BMAL60CTNB - bmal60ctnb-malmo-night-sky-blue-matt-60-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 3,
+        "fields": {
+            "description": "Night Sky Blue Matt\r\n60 countertop vanity unit\r\nW600 x D450mm with oak open shelf\r\n1 drawer with brushed chrome handle",
+            "name": "Malmo 60cm Countertop Basin Night Sky Blue Matt - Chrome handle",
+            "price": "495",
+            "sku": "CMAL60CTNB",
+            "image_url": "CMAL60CTNB - cmal60ctnb-malmo-night-sky-blue-matt-60-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 4,
+        "fields": {
+            "description": "Khaki Matt\r\n60 countertop vanity unit\r\nW600 x D450mm with oak open shelf\r\n1 drawer with brushed gold handle",
+            "name": "Malmo 60cm Countertop Basin Khaki Matt - Brushed Gold handle",
+            "price": "495",
+            "sku": "GMAL60CTKH",
+            "image_url": "GMAL60CTKH - gmal60ctkh-malmo-khaki-matt-60-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 5,
+        "fields": {
+            "description": "Khaki Matt\r\n60 countertop vanity unit\r\nW600 x D450mm with oak open shelf\r\n1 drawer with matt black handle",
+            "name": "Malmo 60cm Countertop Basin Khaki Matt - Matt Black handle",
+            "price": "495",
+            "sku": "BMAL60CTKH",
+            "image_url": "BMAL60CTKH - bmal60ctkh-malmo-khaki-matt-60-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 6,
+        "fields": {
+            "description": "Khaki Matt\r\n60 countertop vanity unit\r\nW600 x D450mm with oak open shelf\r\n1 drawer with brushed chrome handle",
+            "name": "Malmo 60cm Countertop Basin Khaki Matt - Chrome handle",
+            "price": "495",
+            "sku": "CMAL60CTKH",
+            "image_url": "CMAL60CTKH - cmal60ctkh-malmo-khaki-matt-60-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 7,
+        "fields": {
+            "description": "Midnight Grey Matt\r\n60 countertop vanity unit\r\nW600 x D450mm with oak open shelf\r\n1 drawer with brushed gold handle",
+            "name": "Malmo 60cm Countertop Basin Midnight Grey - Brushed Gold handle",
+            "price": "495",
+            "sku": "GMAL60CTMG",
+            "image_url": "GMAL60CTMG - gmal60ctmg-malmo-midnight-grey-matt-60-countertop-vanity-unit-cutout_3.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 8,
+        "fields": {
+            "description": "Midnight Grey Matt\r\n60 countertop vanity unit\r\nW600 x D450mm with oak open shelf\r\n1 drawer with matt black handle",
+            "name": "Malmo 60cm Countertop Basin Midnight Grey - Matt Black handle",
+            "price": "495",
+            "sku": "BMAL60CTMG",
+            "image_url": "BMAL60CTMG - bmal60ctmg-malmo-midnight-grey-matt-60-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 9,
+        "fields": {
+            "description": "Midnight Grey Matt\r\r\n60 countertop vanity unit\r\r\nW600 x D450mm with oak open shelf\r\r\n1 drawer with brushed chrome handle",
+            "name": "Malmo 60cm Countertop Basin Midnight Grey - Chrome handle",
+            "price": "495",
+            "sku": "CMAL60CTMG",
+            "image_url": "CMAL60CTMG - cmal60ctmg-malmo-midnight-grey-matt-60-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 10,
+        "fields": {
+            "description": "Ocean Blue Matt\r\n60 countertop vanity unit\r\nW600 x D450mm with oak open shelf\r\n1 drawer with brushed gold handle",
+            "name": "Malmo 60cm Countertop Basin Ocean Blue Matt - Brushed Gold handle",
+            "price": "495",
+            "sku": "GMAL60CTOB",
+            "image_url": "GMAL60CTOB - gmal60ctob-malmo-ocean-blue-matt-60-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 11,
+        "fields": {
+            "description": "Ocean Blue Matt\r\n60 countertop vanity unit\r\nW600 x D450mm with oak open shelf\r\n1 drawer with matt black handle",
+            "name": "Malmo 60cm Countertop Basin Ocean Blue Matt - Matt Black handle",
+            "price": "495",
+            "sku": "BMAL60CTOB",
+            "image_url": "BMAL60CTOB - bmal60ctob-malmo-ocean-blue-matt-60-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 12,
+        "fields": {
+            "description": "Ocean Blue Matt\r\n60 countertop vanity unit\r\nW600 x D450mm with oak open shelf\r\n1 drawer with brushed chrome handle",
+            "name": "Malmo 60cm Countertop Basin Ocean Blue Matt - Chrome handle",
+            "price": "495",
+            "sku": "CMAL60CTOB",
+            "image_url": "CMAL60CTOB - cmal60ctob-malmo-ocean-blue-matt-60-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 13,
+        "fields": {
+            "description": "Night Sky Blue Matt\r\n80 countertop vanity unit\r\nW800 x D450mm with oak open shelf\r\n1 drawer with brushed gold handle",
+            "name": "Malmo 80cm Countertop Basin Night Sky Blue Matt - Brushed Gold handle",
+            "price": "595",
+            "sku": "GMAL80CTNB",
+            "image_url": "GMAL80CTNB - gmal80ctnb-malmo-night-sky-blue-matt-80-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 14,
+        "fields": {
+            "description": "Night Sky Blue Matt\r\n80 countertop vanity unit\r\nW800 x D450mm with oak open shelf\r\n1 drawer with matt black handle",
+            "name": "Malmo 80cm Countertop Basin Night Sky Blue Matt - Matt Black handle",
+            "price": "595",
+            "sku": "BMAL80CTNB",
+            "image_url": "BMAL80CTNB - bmal80ctnb-malmo-night-sky-blue-matt-80-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 15,
+        "fields": {
+            "description": "Night Sky Blue Matt\r\n80 countertop vanity unit\r\nW800 x D450mm with oak open shelf\r\n1 drawer with brushed chrome handle",
+            "name": "Malmo 80cm Countertop Basin Night Sky Blue Matt - Chrome handle",
+            "price": "595",
+            "sku": "CMAL80CTNB",
+            "image_url": "CMAL80CTNB - cmal80ctnb-malmo-night-sky-blue-matt-80-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 16,
+        "fields": {
+            "description": "Khaki Matt\r\n80 countertop vanity unit\r\nW800 x D450mm with oak open shelf\r\n1 drawer with brushed gold handle",
+            "name": "Malmo 80cm Countertop Basin Khaki Matt - Brushed Gold handle",
+            "price": "595",
+            "sku": "GMAL80CTKH",
+            "image_url": "GMAL80CTKH - gmal80ctkh-malmo-khaki-matt-80-countertop-vanity-unit-cutout-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 17,
+        "fields": {
+            "description": "Khaki Matt\r\n80 countertop vanity unit\r\nW800 x D450mm with oak open shelf\r\n1 drawer with matt black handle",
+            "name": "Malmo 80cm Countertop Basin Khaki Matt - Matt Black handle",
+            "price": "595",
+            "sku": "BMAL80CTKH",
+            "image_url": "BMAL80CTKH - bmal80ctkh-malmo-khaki-matt-80-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 18,
+        "fields": {
+            "description": "Khaki Matt\r\n80 countertop vanity unit\r\nW800 x D450mm with oak open shelf\r\n1 drawer with brushed chrome handle",
+            "name": "Malmo 80cm Countertop Basin Khaki Matt - Chrome handle",
+            "price": "595",
+            "sku": "CMAL80CTKH",
+            "image_url": "CMAL80CTKH - cmal80ctkh-malmo-khaki-matt-80-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 19,
+        "fields": {
+            "description": "Midnight Grey Matt\r\n80 countertop vanity unit\r\nW800 x D450mm with oak open shelf\r\n1 drawer with brushed gold handle",
+            "name": "Malmo 80cm Countertop Basin Midnight Grey - Brushed Gold handle",
+            "price": "595",
+            "sku": "GMAL80CTMG",
+            "image_url": "GMAL80CTMG - gmal80ctmg-malmo-midnight-grey-matt-80-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 20,
+        "fields": {
+            "description": "Midnight Grey Matt\r\n80 countertop vanity unit\r\nW800 x D450mm with oak open shelf\r\n1 drawer with matt black handle",
+            "name": "Malmo 80cm Countertop Basin Midnight Grey - Matt Black handle",
+            "price": "595",
+            "sku": "BMAL80CTMG",
+            "image_url": "BMAL80CTMG - bmal80ctmg-malmo-midnight-grey-matt-80-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 21,
+        "fields": {
+            "description": "Midnight Grey Matt\r\n80 countertop vanity unit\r\nW800 x D450mm with oak open shelf\r\n1 drawer with brushed chrome handle",
+            "name": "Malmo 80cm Countertop Basin Midnight Grey - Chrome handle",
+            "price": "595",
+            "sku": "CMAL80CTMG",
+            "image_url": "CMAL80CTMG - cmal80ctmg-malmo-midnight-grey-matt-80-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 22,
+        "fields": {
+            "description": "Ocean Blue Matt\r\n80 countertop vanity unit\r\nW800 x D450mm with oak open shelf\r\n1 drawer with brushed gold handle",
+            "name": "Malmo 80cm Countertop Basin Ocean Blue Matt - Brushed Gold handle",
+            "price": "595",
+            "sku": "GMAL80CTOB",
+            "image_url": "GMAL80CTOB - gmal80ctob-malmo-ocean-blue-matt-80-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 23,
+        "fields": {
+            "description": "Ocean Blue Matt\r\n80 countertop vanity unit\r\nW800 x D450mm with oak open shelf\r\n1 drawer with matt black handle",
+            "name": "Malmo 80cm Countertop Basin Ocean Blue Matt - Matt Black handle",
+            "price": "595",
+            "sku": "BMAL80CTOB",
+            "image_url": "BMAL80CTOB - bmal80ctob-malmo-ocean-blue-matt-80-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 24,
+        "fields": {
+            "description": "Ocean Blue Matt\r\n80 countertop vanity unit\r\nW800 x D450mm with oak open shelf\r\n1 drawer with brushed chrome handle",
+            "name": "Malmo 80cm Countertop Basin Ocean Blue Matt - Chrome handle",
+            "price": "595",
+            "sku": "CMAL80CTOB",
+            "image_url": "CMAL80CTOB - cmal80ctob-malmo-ocean-blue-matt-80-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 25,
+        "fields": {
+            "description": "Malmo 60cm Single Drawer Open Shelf Unit in Ocean Blue with Chrome Handle - Gloss Basin",
+            "name": "Malmo 60cm Single Drawer, Open Shelf Unit, Ocean Blue, Chrome Handle, Gloss Basin",
+            "price": "495",
+            "sku": "CMAL60OBGB",
+            "image_url": "CMAL60OBGB - cmal60obgb-malmo-ocean-blue-matt-60-wall-hung-unit-with-gloss-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 26,
+        "fields": {
+            "description": "Malmo 60cm Single Drawer Open Shelf Unit in Ocean Blue with Chrome Handle - Matt Basin",
+            "name": "Malmo 60cm Single Drawer, Open Shelf Unit, Ocean Blue, Chrome Handle, Matt Basin",
+            "price": "595",
+            "sku": "CMAL60OBMB",
+            "image_url": "CMAL60OBMB - cmal60obmb-malmo-ocean-blue-matt-60-wall-hung-unit-with-matt-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 27,
+        "fields": {
+            "description": "Malmo 80cm Single Drawer Open Shelf Unit in Ocean Blue with Chrome Handle - Gloss Basin",
+            "name": "Malmo 80cm Single Drawer, Open Shelf Unit, Ocean Blue, Chrome Handle, Gloss Basin",
+            "price": "595",
+            "sku": "CMAL80OBGB",
+            "image_url": "CMAL80OBGB - cmal80obgb-malmo-ocean-blue-matt-80-wall-hung-unit-with-gloss-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 28,
+        "fields": {
+            "description": "Malmo 80cm Single Drawer Open Shelf Unit in Ocean Blue with Chrome Handle - Matt Basin",
+            "name": "Malmo 80cm Single Drawer, Open Shelf Unit, Ocean Blue, Chrome Handle, Matt Basin",
+            "price": "695",
+            "sku": "CMAL80OBMB",
+            "image_url": "CMAL80OBMB - cmal80obmb-malmo-ocean-blue-matt-80-wall-hung-unit-with-matt-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 29,
+        "fields": {
+            "description": "Malmo 60cm Single Drawer Open Shelf Unit in Ocean Blue with Black Handle - Gloss Basin",
+            "name": "Malmo 60cm Single Drawer, Open Shelf Unit, Ocean Blue, Black Handle, Gloss Basin",
+            "price": "495",
+            "sku": "BMAL60OBGB",
+            "image_url": "BMAL60OBGB - bmal60obgb-malmo-ocean-blue-matt-60-wall-hung-unit-with-gloss-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 30,
+        "fields": {
+            "description": "Malmo 60cm Single Drawer Open Shelf Unit in Ocean Blue with Black Handle - Matt Basin",
+            "name": "Malmo 60cm Single Drawer, Open Shelf Unit, Ocean Blue, Black Handle, Matt Basin",
+            "price": "595",
+            "sku": "BMAL60OBMB",
+            "image_url": "BMAL60OBMB - bmal60obmb-malmo-ocean-blue-matt-60-wall-hung-unit-with-matt-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 31,
+        "fields": {
+            "description": "Malmo 80cm Single Drawer Open Shelf Unit in Ocean Blue with Black Handle - Gloss Basin",
+            "name": "Malmo 80cm Single Drawer, Open Shelf Unit, Ocean Blue, Black Handle, Gloss Basin",
+            "price": "595",
+            "sku": "BMAL80OBGB",
+            "image_url": "BMAL80OBGB - bmal80obgb-malmo-ocean-blue-matt-80-wall-hung-unit-with-gloss-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 32,
+        "fields": {
+            "description": "Malmo 80cm Single Drawer Open Shelf Unit in Ocean Blue with Black Handle - Matt Basin",
+            "name": "Malmo 80cm Single Drawer, Open Shelf Unit, Ocean Blue, Black Handle, Matt Basin",
+            "price": "695",
+            "sku": "BMAL80OBMB",
+            "image_url": "BMAL80OBMB - bmal80obmb-malmo-ocean-blue-matt-80-wall-hung-unit-with-matt-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 33,
+        "fields": {
+            "description": "Malmo 60cm Single Drawer Open Shelf Unit in Ocean Blue with Brushed Gold Handle - Gloss Basin",
+            "name": "Malmo 60cm Single Drawer, Open Shelf Unit, Ocean Blue, Brushed Gold Handle, Gloss Basin",
+            "price": "495",
+            "sku": "GMAL60OBGB",
+            "image_url": "GMAL60OBGB - gmal60obgb-malmo-ocean-blue-matt-60-wall-hung-unit-with-gloss-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 34,
+        "fields": {
+            "description": "Malmo 60cm Single Drawer Open Shelf Unit in Ocean Blue with Brushed Gold Handle - Matt Basin",
+            "name": "Malmo 60cm Single Drawer, Open Shelf Unit, Ocean Blue, Brushed Gold Handle, Matt Basin",
+            "price": "595",
+            "sku": "GMAL60OBMB",
+            "image_url": "GMAL60OBMB - gmal60obmb-malmo-ocean-blue-matt-60-wall-hung-unit-with-matt-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 35,
+        "fields": {
+            "description": "Malmo 80cm Single Drawer Open Shelf Unit in Ocean Blue with Brushed Gold Handle - Gloss Basin",
+            "name": "Malmo 80cm Single Drawer, Open Shelf Unit, Ocean Blue, Brushed Gold Handle, Gloss Basin",
+            "price": "595",
+            "sku": "GMAL80OBGB",
+            "image_url": "GMAL80OBGB - gmal80obgb-malmo-ocean-blue-matt-80-wall-hung-unit-with-gloss-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 36,
+        "fields": {
+            "description": "Malmo 80cm Single Drawer Open Shelf Unit in Ocean Blue with Brushed Gold Handle - Matt Basin",
+            "name": "Malmo 80cm Single Drawer, Open Shelf Unit, Ocean Blue, Brushed Gold Handle, Matt Basin",
+            "price": "695",
+            "sku": "GMAL80OBMB",
+            "image_url": "GMAL80OBMB - gmal80obmb-malmo-ocean-blue-matt-80-wall-hung-unit-with-matt-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 37,
+        "fields": {
+            "description": "Malmo 60cm Single Drawer Open Shelf Unit in Khaki with Chrome Handle - Gloss Basin",
+            "name": "Malmo 60cm Single Drawer, Open Shelf Unit, Khaki, Chrome Handle, Gloss Basin",
+            "price": "495",
+            "sku": "CMAL60KHGB",
+            "image_url": "CMAL60KHGB - cmal60khgb-malmo-khaki-matt-60-wall-hung-unit-with-gloss-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 38,
+        "fields": {
+            "description": "Malmo 60cm Single Drawer Open Shelf Unit in Khaki with Chrome Handle - Matt Basin",
+            "name": "Malmo 60cm Single Drawer, Open Shelf Unit, Khaki, Chrome Handle, Matt Basin",
+            "price": "595",
+            "sku": "CMAL60KHMB",
+            "image_url": "CMAL60KHMB - cmal60khmb-malmo-khaki-matt-60-wall-hung-unit-with-matt-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 39,
+        "fields": {
+            "description": "Malmo 80cm Single Drawer Open Shelf Unit in Khaki with Chrome Handle - Gloss Basin",
+            "name": "Malmo 80cm Single Drawer, Open Shelf Unit, Khaki, Chrome Handle, Gloss Basin",
+            "price": "595",
+            "sku": "CMAL80KHGB",
+            "image_url": "CMAL80KHGB - cmal80khgb-malmo-khaki-matt-80-wall-hung-unit-with-gloss-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 40,
+        "fields": {
+            "description": "Malmo 80cm Single Drawer Open Shelf Unit in Khaki with Chrome Handle - Matt Basin",
+            "name": "Malmo 80cm Single Drawer, Open Shelf Unit, Khaki, Chrome Handle, Matt Basin",
+            "price": "695",
+            "sku": "CMAL80KHMB",
+            "image_url": "CMAL80KHMB - cmal80khmb-malmo-khaki-matt-80-wall-hung-unit-with-matt-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 41,
+        "fields": {
+            "description": "Malmo 60cm Single Drawer Open Shelf Unit in Khaki with Black Handle - Gloss Basin",
+            "name": "Malmo 60cm Single Drawer, Open Shelf Unit, Khaki, Black Handle, Gloss Basin",
+            "price": "495",
+            "sku": "BMAL60KHGB",
+            "image_url": "BMAL60KHGB - bmal60khgb-malmo-khaki-matt-60-wall-hung-unit-with-gloss-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 42,
+        "fields": {
+            "description": "Malmo 60cm Single Drawer Open Shelf Unit in Khaki with Black Handle - Matt Basin",
+            "name": "Malmo 60cm Single Drawer, Open Shelf Unit, Khaki, Black Handle, Matt Basin",
+            "price": "595",
+            "sku": "BMAL60KHMB",
+            "image_url": "BMAL60KHMB - bmal60khmb-malmo-khaki-matt-60-wall-hung-unit-with-matt-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 43,
+        "fields": {
+            "description": "Malmo 80cm Single Drawer Open Shelf Unit in Khaki with Black Handle - Gloss Basin",
+            "name": "Malmo 80cm Single Drawer, Open Shelf Unit, Khaki, Black Handle, Gloss Basin",
+            "price": "595",
+            "sku": "BMAL80KHGB",
+            "image_url": "BMAL80KHGB - bmal80khgb-malmo-khaki-matt-80-wall-hung-unit-with-gloss-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 44,
+        "fields": {
+            "description": "Malmo 80cm Single Drawer Open Shelf Unit in Khaki with Black Handle - Matt Basin",
+            "name": "Malmo 80cm Single Drawer, Open Shelf Unit, Khaki, Black Handle, Matt Basin",
+            "price": "695",
+            "sku": "BMAL80KHMB",
+            "image_url": "BMAL80KHMB - bmal80khmb-malmo-khaki-matt-80-wall-hung-unit-with-matt-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 45,
+        "fields": {
+            "description": "Malmo 60cm Single Drawer Open Shelf Unit in Khaki with Brushed Gold Handle - Gloss Basin",
+            "name": "Malmo 60cm Single Drawer, Open Shelf Unit, Khaki, Brushed Gold Handle, Gloss Basin",
+            "price": "495",
+            "sku": "GMAL60KHGB",
+            "image_url": "GMAL60KHGB - gmal60khgb-malmo-khaki-matt-60-wall-hung-unit-with-gloss-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 46,
+        "fields": {
+            "description": "Malmo 60cm Single Drawer Open Shelf Unit in Khaki with Brushed Gold Handle - Matt Basin",
+            "name": "Malmo 60cm Single Drawer, Open Shelf Unit, Khaki, Brushed Gold Handle, Matt Basin",
+            "price": "595",
+            "sku": "GMAL60KHMB",
+            "image_url": "GMAL60KHMB - gmal60khmb-malmo-khaki-matt-60-wall-hung-unit-with-matt-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 47,
+        "fields": {
+            "description": "Malmo 80cm Single Drawer Open Shelf Unit in Khaki with Brushed Gold Handle - Gloss Basin",
+            "name": "Malmo 80cm Single Drawer, Open Shelf Unit, Khaki, Brushed Gold Handle, Gloss Basin",
+            "price": "595",
+            "sku": "GMAL80KHGB",
+            "image_url": "GMAL80KHGB - gmal80khgb-malmo-khaki-matt-80-wall-hung-unit-with-gloss-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 48,
+        "fields": {
+            "description": "Malmo 80cm Single Drawer Open Shelf Unit in Khaki with Brushed Gold Handle - Matt Basin",
+            "name": "Malmo 80cm Single Drawer, Open Shelf Unit, Khaki, Brushed Gold Handle, Matt Basin",
+            "price": "695",
+            "sku": "GMAL80KHMB",
+            "image_url": "GMAL80KHMB - gmal80khmb-malmo-khaki-matt-80-wall-hung-unit-with-matt-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 49,
+        "fields": {
+            "description": "Malmo 60cm Single Drawer Open Shelf Unit in Midnight Grey with Chrome Handle - Gloss Basin",
+            "name": "Malmo 60cm Single Drawer, Open Shelf Unit, Midnight Grey, Chrome Handle, Gloss Basin",
+            "price": "495",
+            "sku": "CMAL60MGGB",
+            "image_url": "CMAL60MGGB - cmal60mggb-malmo-midnight-grey-matt-60-wall-hung-unit-with-gloss-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 50,
+        "fields": {
+            "description": "Malmo 60cm Single Drawer Open Shelf Unit in Midnight Grey with Chrome Handle - Matt Basin",
+            "name": "Malmo 60cm Single Drawer, Open Shelf Unit, Midnight Grey, Chrome Handle, Matt Basin",
+            "price": "595",
+            "sku": "CMAL60MGMB",
+            "image_url": "CMAL60MGMB - cmal60mgmb-malmo-midnight-grey-matt-60-wall-hung-unit-with-matt-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 51,
+        "fields": {
+            "description": "Malmo 80cm Single Drawer Open Shelf Unit in Midnight Grey with Chrome Handle - Gloss Basin",
+            "name": "Malmo 80cm Single Drawer, Open Shelf Unit, Midnight Grey, Chrome Handle, Gloss Basin",
+            "price": "595",
+            "sku": "CMAL80MGGB",
+            "image_url": "CMAL80MGGB - cmal80mggb-malmo-midnight-grey-matt-80-wall-hung-unit-with-gloss-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 52,
+        "fields": {
+            "description": "Malmo 80cm Single Drawer Open Shelf Unit in Midnight Grey with Chrome Handle - Matt Basin",
+            "name": "Malmo 80cm Single Drawer, Open Shelf Unit, Midnight Grey, Chrome Handle, Matt Basin",
+            "price": "695",
+            "sku": "CMAL80MGMB",
+            "image_url": "CMAL80MGMB - cmal80mgmb-malmo-midnight-grey-matt-80-wall-hung-unit-with-matt-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 53,
+        "fields": {
+            "description": "Malmo 60cm Single Drawer Open Shelf Unit in Midnight Grey with Black Handle - Gloss Basin",
+            "name": "Malmo 60cm Single Drawer, Open Shelf Unit, Midnight Grey, Black Handle, Gloss Basin",
+            "price": "495",
+            "sku": "BMAL60MGGB",
+            "image_url": "BMAL60MGGB - bmal60mggb-malmo-midnight-grey-matt-60-wall-hung-unit-with-gloss-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 54,
+        "fields": {
+            "description": "Malmo 60cm Single Drawer Open Shelf Unit in Midnight Grey with Black Handle - Matt Basin",
+            "name": "Malmo 60cm Single Drawer, Open Shelf Unit, Midnight Grey, Black Handle, Matt Basin",
+            "price": "595",
+            "sku": "BMAL60MGMB",
+            "image_url": "BMAL60MGMB - bmal60mgmb-malmo-midnight-grey-matt-60-wall-hung-unit-with-matt-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 55,
+        "fields": {
+            "description": "Malmo 80cm Single Drawer Open Shelf Unit in Midnight Grey with Black Handle - Gloss Basin",
+            "name": "Malmo 80cm Single Drawer, Open Shelf Unit, Midnight Grey, Black Handle, Gloss Basin",
+            "price": "595",
+            "sku": "BMAL80MGGB",
+            "image_url": "BMAL80MGGB - bmal80mggb-malmo-midnight-grey-matt-80-wall-hung-unit-with-gloss-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 56,
+        "fields": {
+            "description": "Malmo 80cm Single Drawer Open Shelf Unit in Midnight Grey with Black Handle - Matt Basin",
+            "name": "Malmo 80cm Single Drawer, Open Shelf Unit, Midnight Grey, Black Handle, Matt Basin",
+            "price": "695",
+            "sku": "BMAL80MGMB",
+            "image_url": "BMAL80MGMB - bmal80mgmb-malmo-midnight-grey-matt-80-wall-hung-unit-with-matt-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 57,
+        "fields": {
+            "description": "Malmo 60cm Single Drawer Open Shelf Unit in Midnight Grey with Brushed Gold Handle - Gloss Basin",
+            "name": "Malmo 60cm Single Drawer, Open Shelf Unit, Midnight Grey, Brushed Gold Handle, Gloss Basin",
+            "price": "495",
+            "sku": "GMAL60MGGB",
+            "image_url": "GMAL60MGGB - gmal60mggb-malmo-midnight-grey-matt-60-wall-hung-unit-with-gloss-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 58,
+        "fields": {
+            "description": "Malmo 60cm Single Drawer Open Shelf Unit in Midnight Grey with Brushed Gold Handle - Matt Basin",
+            "name": "Malmo 60cm Single Drawer, Open Shelf Unit, Midnight Grey, Brushed Gold Handle, Matt Basin",
+            "price": "595",
+            "sku": "GMAL60MGMB",
+            "image_url": "GMAL60MGMB - gmal60mgmb-malmo-midnight-grey-matt-60-wall-hung-unit-with-matt-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 59,
+        "fields": {
+            "description": "Malmo 80cm Single Drawer Open Shelf Unit in Midnight Grey with Brushed Gold Handle - Gloss Basin",
+            "name": "Malmo 80cm Single Drawer, Open Shelf Unit, Midnight Grey, Brushed Gold Handle, Gloss Basin",
+            "price": "595",
+            "sku": "GMAL80MGGB",
+            "image_url": "GMAL80MGGB - gmal80mggb-malmo-midnight-grey-matt-80-wall-hung-unit-with-gloss-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 60,
+        "fields": {
+            "description": "Malmo 80cm Single Drawer Open Shelf Unit in Midnight Grey with Brushed Gold Handle - Matt Basin",
+            "name": "Malmo 80cm Single Drawer, Open Shelf Unit, Midnight Grey, Brushed Gold Handle, Matt Basin",
+            "price": "695",
+            "sku": "GMAL80MGMB",
+            "image_url": "GMAL80MGMB - gmal80mgmb-malmo-midnight-grey-matt-80-wall-hung-unit-with-matt-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 61,
+        "fields": {
+            "description": "Malmo 60cm Single Drawer Open Shelf Unit in Matt Night Sky Blue with Chrome Handle - Gloss Basin",
+            "name": "Malmo 60cm Single Drawer, Open Shelf Unit, Matt Night Sky Blue, Chrome Handle, Gloss Basin",
+            "price": "495",
+            "sku": "CMAL60NBGB",
+            "image_url": "CMAL60NBGB - cmal60nbgb-malmo-night-sky-blue-matt-60-wall-hung-unit-with-gloss-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 62,
+        "fields": {
+            "description": "Malmo 60cm Single Drawer Open Shelf Unit in Matt Night Sky Blue with Chrome Handle - Matt Basin",
+            "name": "Malmo 60cm Single Drawer, Open Shelf Unit, Matt Night Sky Blue, Chrome Handle, Matt Basin",
+            "price": "595",
+            "sku": "CMAL60NBMB",
+            "image_url": "CMAL60NBMB - cmal60nbmb-malmo-night-sky-blue-matt-60-wall-hung-unit-with-matt-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 63,
+        "fields": {
+            "description": "Malmo 80cm Single Drawer Open Shelf Unit in Matt Night Sky Blue with Chrome Handle - Gloss Basin",
+            "name": "Malmo 80cm Single Drawer, Open Shelf Unit, Matt Night Sky Blue, Chrome Handle, Gloss Basin",
+            "price": "595",
+            "sku": "CMAL80NBGB",
+            "image_url": "CMAL80NBGB - cmal80nbgb-malmo-night-sky-blue-matt-80-wall-hung-unit-with-gloss-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 64,
+        "fields": {
+            "description": "Malmo 80cm Single Drawer Open Shelf Unit in Matt Night Sky Blue with Chrome Handle - Matt Basin",
+            "name": "Malmo 80cm Single Drawer, Open Shelf Unit, Matt Night Sky Blue, Chrome Handle, Matt Basin",
+            "price": "695",
+            "sku": "CMAL80NBMB",
+            "image_url": "CMAL80NBMB - cmal80nbmb-malmo-night-sky-blue-matt-80-wall-hung-unit-with-matt-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 65,
+        "fields": {
+            "description": "Malmo 60cm Single Drawer Open Shelf Unit in Matt Night Sky Blue with Black Handle - Gloss Basin",
+            "name": "Malmo 60cm Single Drawer, Open Shelf Unit, Matt Night Sky Blue, Black Handle, Gloss Basin",
+            "price": "495",
+            "sku": "BMAL60NBGB",
+            "image_url": "BMAL60NBGB - bmal60nbgb-malmo-night-sky-blue-matt-60-wall-hung-unit-with-gloss-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 66,
+        "fields": {
+            "description": "Malmo 60cm Single Drawer Open Shelf Unit in Matt Night Sky Blue with Black Handle - Matt Basin",
+            "name": "Malmo 60cm Single Drawer, Open Shelf Unit, Matt Night Sky Blue, Black Handle, Matt Basin",
+            "price": "595",
+            "sku": "BMAL60NBMB",
+            "image_url": "BMAL60NBMB - bmal60nbmb-malmo-night-sky-blue-matt-60-wall-hung-unit-with-matt-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 67,
+        "fields": {
+            "description": "Malmo 80cm Single Drawer Open Shelf Unit in Matt Night Sky Blue with Black Handle - Gloss Basin",
+            "name": "Malmo 80cm Single Drawer, Open Shelf Unit, Matt Night Sky Blue, Black Handle, Gloss Basin",
+            "price": "595",
+            "sku": "BMAL80NBGB",
+            "image_url": "BMAL80NBGB - bmal80nbgb-malmo-night-sky-blue-matt-80-wall-hung-unit-with-gloss-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 68,
+        "fields": {
+            "description": "Malmo 80cm Single Drawer Open Shelf Unit in Matt Night Sky Blue with Black Handle - Matt Basin",
+            "name": "Malmo 80cm Single Drawer, Open Shelf Unit, Matt Night Sky Blue, Black Handle, Matt Basin",
+            "price": "695",
+            "sku": "BMAL80NBMB",
+            "image_url": "BMAL80NBMB - bmal80nbmb-malmo-night-sky-blue-matt-80-wall-hung-unit-with-matt-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 69,
+        "fields": {
+            "description": "Malmo 60cm Single Drawer Open Shelf Unit in Matt Night Sky Blue with Brushed Gold Handle - Gloss Basin",
+            "name": "Malmo 60cm Single Drawer, Open Shelf Unit, Matt Night Sky Blue, Brushed Gold Handle, Gloss Basin",
+            "price": "495",
+            "sku": "GMAL60NBGB",
+            "image_url": "GMAL60NBGB - gmal60nbgb-malmo-night-sky-blue-matt-60-wall-hung-unit-with-gloss-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 70,
+        "fields": {
+            "description": "Malmo 60cm Single Drawer Open Shelf Unit in Matt Night Sky Blue with Brushed Gold Handle - Matt Basin",
+            "name": "Malmo 60cm Single Drawer, Open Shelf Unit, Matt Night Sky Blue, Brushed Gold Handle, Matt Basin",
+            "price": "595",
+            "sku": "GMAL60NBMB",
+            "image_url": "GMAL60NBMB - gmal60nbmb-malmo-night-sky-blue-matt-60-wall-hung-unit-with-matt-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 71,
+        "fields": {
+            "description": "Malmo 80cm Single Drawer Open Shelf Unit in Matt Night Sky Blue with Brushed Gold Handle - Gloss Basin",
+            "name": "Malmo 80cm Single Drawer, Open Shelf Unit, Matt Night Sky Blue, Brushed Gold Handle, Gloss Basin",
+            "price": "595",
+            "sku": "GMAL80NBGB",
+            "image_url": "GMAL80NBGB - gmal80nbgb-malmo-night-sky-blue-matt-80-wall-hung-unit-with-gloss-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 72,
+        "fields": {
+            "description": "Malmo 80cm Single Drawer Open Shelf Unit in Matt Night Sky Blue with Brushed Gold Handle - Matt Basin",
+            "name": "Malmo 80cm Single Drawer, Open Shelf Unit, Matt Night Sky Blue, Brushed Gold Handle, Matt Basin",
+            "price": "695",
+            "sku": "GMAL80NBMB",
+            "image_url": "GMAL80NBMB - gmal80nbmb-malmo-night-sky-blue-matt-80-wall-hung-unit-with-matt-basin-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 73,
+        "fields": {
+            "description": "Midnight Grey Matt 30cm Finland Wall Column\r\r\n",
+            "name": "Midnight Grey Matt 30cm Wall Column",
+            "price": "420",
+            "sku": "UF0099",
+            "image_url": "UF0099 - uf0096_820x1000x96dpi.jpg",
+            "category": [
+                "bathroom furniture"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 74,
+        "fields": {
+            "description": "Ocean Blue Matt 30cm Finland Wall Column\r\r\n",
+            "name": "Ocean Blue Matt 30cm Wall Column",
+            "price": "420",
+            "sku": "UF0095",
+            "image_url": "UF0095 - uf0095_820x1000x96dpi_1.jpg",
+            "category": [
+                "bathroom furniture"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 75,
+        "fields": {
+            "description": "Khaki Matt 30cm Finland Wall Column",
+            "name": "Khaki Matt 30cm Wall Column",
+            "price": "420",
+            "sku": "UF0097",
+            "image_url": "UF0097 - uf0097_820x1000x96dpi.jpg",
+            "category": [
+                "bathroom furniture"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 76,
+        "fields": {
+            "description": "Stockholm Matt Night Sky Blue 30cm Universal Wall column",
+            "name": "Stockholm Matt Night Sky Blue 30cm Universal Wall column",
+            "price": "420",
+            "sku": "UF0264",
+            "image_url": "UF0264 - uf0264-scandinavian-column-night-sky-blue-matt-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 77,
+        "fields": {
+            "description": "60cm countertop vanity unit in White Gloss finish with \r\r\n2 drawer and brushed chrome handle - W600 x D450mm",
+            "name": "Fjord 60cm Unit with Counter Top Chrome Handle Gloss White",
+            "price": "580",
+            "sku": "CFJ60CTWH",
+            "image_url": "CFJ60CTWH - cfj60ctwh-fjord-white-gloss-60-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 78,
+        "fields": {
+            "description": "60cm countertop vanity unit in Khaki Matt finish with \r\n2 drawer and brushed chrome handle - W600 x D450mm",
+            "name": "Fjord 60cm Unit with Counter Top Chrome Handle Matt Khaki",
+            "price": "580",
+            "sku": "CFJ60CTKH",
+            "image_url": "CFJ60CTKH - cfj60ctkh-fjord-khaki-matt-60-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 79,
+        "fields": {
+            "description": "60cm countertop vanity unit in Midnight Grey Matt finish with 2 drawer and brushed chrome handle - W600 x D450mm",
+            "name": "Fjord 60cm Unit with Counter Top Chrome Handle Matt Midnight Grey",
+            "price": "580",
+            "sku": "CFJ60CTMN",
+            "image_url": "CFJ60CTMN - cfj60ctmn-fjord-midnight-grey-matt-60-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 80,
+        "fields": {
+            "description": "60cm countertop vanity unit in Ocean Blue Matt finish with 2 drawer and brushed chrome handle - W600 x D450mm",
+            "name": "Fjord 60cm Unit with Counter Top Chrome Handle Matt Ocean Blue",
+            "price": "580",
+            "sku": "CFJ60CTOB",
+            "image_url": "CFJ60CTOB - cfj60ctob-fjord-ocean-blue-matt-60-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 81,
+        "fields": {
+            "description": "60cm countertop vanity unit in White Gloss finish with \r\n2 drawer and Matt black handle - W600 x D450mm",
+            "name": "Fjord 60cm Unit with Counter Top Black Handle Gloss White",
+            "price": "580",
+            "sku": "BFJ60CTWH",
+            "image_url": "BFJ60CTWH - bfj60ctwh-fjord-white-gloss-60-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 82,
+        "fields": {
+            "description": "60cm countertop vanity unit in Khaki Matt finish with \r\n2 drawer and Matt black handle - W600 x D450mm",
+            "name": "Fjord 60cm Unit with Counter Top Black Handle Matt Khaki",
+            "price": "580",
+            "sku": "BFJ60CTKH",
+            "image_url": "BFJ60CTKH - bfj60ctkh-fjord-khaki-matt-60-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 83,
+        "fields": {
+            "description": "60cm countertop vanity unit in Midnight Grey Matt finish with 2 drawer and Matt black handle - W600 x D450mm",
+            "name": "Fjord 60cm Unit with Counter Top Black Handle Matt Midnight Grey",
+            "price": "580",
+            "sku": "BFJ60CTMN",
+            "image_url": "BFJ60CTMN - bfj60ctmn-fjord-midnight-grey-matt-60-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 84,
+        "fields": {
+            "description": "60cm countertop vanity unit in Ocean Blue Matt finish with 2 drawer and Matt black handle - W600 x D450mm",
+            "name": "Fjord 60cm Unit with Counter Top Black Handle Matt Ocean Blue",
+            "price": "580",
+            "sku": "BFJ60CTOB",
+            "image_url": "BFJ60CTOB - bfj60ctob-fjord-ocean-blue-matt-60-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 85,
+        "fields": {
+            "description": "60cm countertop vanity unit in White Gloss finish with \r\r\n2 drawer and brused Gold handle - W600 x D450mm",
+            "name": "Fjord 60cm Unit with Counter Top Gold Handle Gloss White",
+            "price": "580",
+            "sku": "GFJ60CTWH",
+            "image_url": "GFJ60CTWH - gfj60ctwh-fjord-white-gloss-60-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 86,
+        "fields": {
+            "description": "60cm countertop vanity unit in Khaki Matt finish with \r\n2 drawer and brused Gold handle - W600 x D450mm",
+            "name": "Fjord 60cm Unit with Counter Top Gold Handle Matt Khaki",
+            "price": "580",
+            "sku": "GFJ60CTKH",
+            "image_url": "GFJ60CTKH - gfj60ctkh-fjord-khaki-matt-60-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 87,
+        "fields": {
+            "description": "60cm countertop vanity unit in Midnight Grey Matt finish with 2 drawer and brused Gold handle - W600 x D450mm",
+            "name": "Fjord 60cm Unit with Counter Top Gold Handle Matt Midnight Grey",
+            "price": "580",
+            "sku": "GFJ60CTMN",
+            "image_url": "GFJ60CTMN - gfj60ctmn-fjord-midnight-grey-matt-60-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 88,
+        "fields": {
+            "description": "60cm countertop vanity unit in Ocean Blue Matt finish with 2 drawer and brused Gold handle - W600 x D450mm",
+            "name": "Fjord 60cm Unit with Counter Top Gold Handle Matt Ocean Blue",
+            "price": "580",
+            "sku": "GFJ60CTOB",
+            "image_url": "GFJ60CTOB - gfj60ctob-fjord-ocean-blue-matt-60-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 89,
+        "fields": {
+            "description": "80cm countertop vanity unit in White Gloss finish with \r\n2 drawer and brushed chrome handle - W800 x D450mm",
+            "name": "Fjord 80cm Unit with Counter Top Chrome Handle Gloss White",
+            "price": "685",
+            "sku": "CFJ80CTWH",
+            "image_url": "CFJ80CTWH - cfj80ctwh-fjord-white-gloss-80-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 90,
+        "fields": {
+            "description": "80cm countertop vanity unit in Khaki Matt finish with \r\n2 drawer and brushed chrome handle - W800 x D450mm",
+            "name": "Fjord 80cm Unit with Counter Top Chrome Handle Matt Khaki",
+            "price": "685",
+            "sku": "CFJ80CTKH",
+            "image_url": "CFJ80CTKH - cfj80ctkh-fjord-khaki-matt-80-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 91,
+        "fields": {
+            "description": "80cm countertop vanity unit in Midnight Grey Matt finish with 2 drawer and brushed chrome handle - W800 x D450mm",
+            "name": "Fjord 80cm Unit with Counter Top Chrome Handle Matt Midnight Grey",
+            "price": "685",
+            "sku": "CFJ80CTMN",
+            "image_url": "CFJ80CTMN - cfj80ctmn-fjord-midnight-grey-matt-80-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 92,
+        "fields": {
+            "description": "80cm countertop vanity unit in Ocean Blue Matt finish with 2 drawer and brushed chrome handle - W800 x D450mm",
+            "name": "Fjord 80cm Unit with Counter Top Chrome Handle Matt Ocean Blue",
+            "price": "685",
+            "sku": "CFJ80CTOB",
+            "image_url": "CFJ80CTOB - cfj80ctob-fjord-ocean-blue-matt-80-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 93,
+        "fields": {
+            "description": "80cm countertop vanity unit in White Gloss finish with \r\n2 drawer and Matt black handle - W800 x D450mm",
+            "name": "Fjord 80cm Unit with Counter Top Black Handle Gloss White",
+            "price": "685",
+            "sku": "BFJ80CTWH",
+            "image_url": "BFJ80CTWH - bfj80ctwh-fjord-white-gloss-80-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 94,
+        "fields": {
+            "description": "80cm countertop vanity unit in Khaki Matt finish with \r\n2 drawer and Matt black handle - W800 x D450mm",
+            "name": "Fjord 80cm Unit with Counter Top Black Handle Matt Khaki",
+            "price": "685",
+            "sku": "BFJ80CTKH",
+            "image_url": "BFJ80CTKH - bfj80ctkh-fjord-khaki-matt-80-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 95,
+        "fields": {
+            "description": "80cm countertop vanity unit in Midnight Grey Matt finish with 2 drawer and Matt black handle - W800 x D450mm",
+            "name": "Fjord 80cm Unit with Counter Top Black Handle Matt Midnight Grey",
+            "price": "685",
+            "sku": "BFJ80CTMN",
+            "image_url": "BFJ80CTMN - bfj80ctmn-fjord-midnight-grey-matt-80-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 96,
+        "fields": {
+            "description": "80cm countertop vanity unit in Ocean Blue Matt finish with 2 drawer and Matt black handle - W800 x D450mm",
+            "name": "Fjord 80cm Unit with Counter Top Black Handle Matt Ocean Blue",
+            "price": "685",
+            "sku": "BFJ80CTOB",
+            "image_url": "BFJ80CTOB - bfj80ctob-fjord-ocean-blue-matt-80-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 97,
+        "fields": {
+            "description": "80cm countertop vanity unit in White Gloss finish with \r\n2 drawer and brused Gold handle - W800 x D450mm",
+            "name": "Fjord 80cm Unit with Counter Top Gold Handle Gloss White",
+            "price": "685",
+            "sku": "GFJ80CTWH",
+            "image_url": "GFJ80CTWH - gfj80ctwh-fjord-white-gloss-80-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 98,
+        "fields": {
+            "description": "80cm countertop vanity unit in Khaki Matt finish with \r\n2 drawer and brused Gold handle - W800 x D450mm",
+            "name": "Fjord 80cm Unit with Counter Top Gold Handle Matt Khaki",
+            "price": "685",
+            "sku": "GFJ80CTKH",
+            "image_url": "GFJ80CTKH - gfj80ctkh-fjord-khaki-matt-80-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 99,
+        "fields": {
+            "description": "80cm countertop vanity unit in Midnight Grey Matt finish with 2 drawer and brused Gold handle - W800 x D450mm",
+            "name": "Fjord 80cm Unit with Counter Top Gold Handle Matt Midnight Grey",
+            "price": "685",
+            "sku": "GFJ80CTMN",
+            "image_url": "GFJ80CTMN - gfj80ctmn-fjord-midnight-grey-matt-80-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    },
+    {
+        "model": "products.Product",
+        "pk": 100,
+        "fields": {
+            "description": "80cm countertop vanity unit in Ocean Blue Matt finish with 2 drawer and brused Gold handle - W800 x D450mm",
+            "name": "Fjord 80cm Unit with Counter Top Gold Handle Matt Ocean Blue",
+            "price": "685",
+            "sku": "GFJ80CTOB",
+            "image_url": "GFJ80CTOB - gfj80ctob-fjord-ocean-blue-matt-80-countertop-vanity-unit-cutout.jpg",
+            "category": [
+                "vanity units"
+            ],
+            "brand": [
+                "sonas"
+            ],
+            "shop": [
+                "bathroom"
+            ]
+        }
+    }
+]

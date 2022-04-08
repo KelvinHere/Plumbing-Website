@@ -8,8 +8,7 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
         User = get_user_model()
         ''' Setup Superuser if doesn't exist '''
-        print('##############')
-        print(os.environ.get('SUPERUSER_USERNAME'))
+        print('## CREATE INITIAL USERS ##')
         if not User.objects.filter(username=os.environ.get('SUPERUSER_USERNAME')).exists():
             superuser = User.objects.create_superuser(username=os.environ.get('SUPERUSER_USERNAME'),
                                           email=os.environ.get('SUPERUSER_EMAIL'),

@@ -1,0 +1,23 @@
+[
+    {
+        "model": "products.Shop",
+        "pk": 1,
+        "fields": {
+            "name": "bathroom"
+        }
+    },
+    {
+        "model": "products.Shop",
+        "pk": 2,
+        "fields": {
+            "name": "heating"
+        }
+    },
+    {
+        "model": "products.Shop",
+        "pk": 3,
+        "fields": {
+            "name": "plumbing"
+        }
+    }
+]

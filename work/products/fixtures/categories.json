@@ -1,0 +1,93 @@
+[
+    {
+        "model": "products.Category",
+        "pk": 1,
+        "fields": {
+            "name": "vanity units"
+        }
+    },
+    {
+        "model": "products.Category",
+        "pk": 2,
+        "fields": {
+            "name": "bathroom furniture"
+        }
+    },
+    {
+        "model": "products.Category",
+        "pk": 3,
+        "fields": {
+            "name": "mirrors"
+        }
+    },
+    {
+        "model": "products.Category",
+        "pk": 4,
+        "fields": {
+            "name": "default"
+        }
+    },
+    {
+        "model": "products.Category",
+        "pk": 5,
+        "fields": {
+            "name": "accessories"
+        }
+    },
+    {
+        "model": "products.Category",
+        "pk": 6,
+        "fields": {
+            "name": "wash basins"
+        }
+    },
+    {
+        "model": "products.Category",
+        "pk": 7,
+        "fields": {
+            "name": "toilets"
+        }
+    },
+    {
+        "model": "products.Category",
+        "pk": 8,
+        "fields": {
+            "name": "taps"
+        }
+    },
+    {
+        "model": "products.Category",
+        "pk": 9,
+        "fields": {
+            "name": "showers"
+        }
+    },
+    {
+        "model": "products.Category",
+        "pk": 10,
+        "fields": {
+            "name": "shower enclosures"
+        }
+    },
+    {
+        "model": "products.Category",
+        "pk": 11,
+        "fields": {
+            "name": "shower trays"
+        }
+    },
+    {
+        "model": "products.Category",
+        "pk": 12,
+        "fields": {
+            "name": "baths"
+        }
+    },
+    {
+        "model": "products.Category",
+        "pk": 13,
+        "fields": {
+            "name": "towel rails"
+        }
+    }
+]

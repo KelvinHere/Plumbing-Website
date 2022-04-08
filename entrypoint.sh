@@ -14,7 +14,12 @@ fi
 
 # Script
 python manage.py flush --no-input
-python manage.py migrate
+python manage.py makemigrations --no-input
+python manage.py migrate --no-input
 python manage.py ensure_initial_users
+python manage.py loaddata brands.json
+python manage.py loaddata shops.json
+python manage.py loaddata categories.json
+python manage.py loaddata productssample.json
 
 exec "$@"

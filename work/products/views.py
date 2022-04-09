@@ -19,6 +19,7 @@ def products(request):
 
     # GET: setup shop_filter & categories
     if request.GET:
+        print('in get')
         if 'page' in request.GET:
             page_number = request.GET.get('page')
         if 'shop_filter' in request.GET:
@@ -45,10 +46,12 @@ def products(request):
 
     # Get products
     products = Product.objects.all()
-
     # Filter by shop
     if shop_filter != 'all':
         products = products.filter(shop__name=shop_filter)
+
+    if category:
+        products = products.filter(category__name=category)
 
     # Rank results by user query
     if request.session.get('q'):
@@ -73,7 +76,7 @@ def products(request):
         page_object = p.page(page_number)
     except EmptyPage:
         page_object = p.page(1)
-
+    
     template = 'products/products.html'
     context = {
         'products': page_object,

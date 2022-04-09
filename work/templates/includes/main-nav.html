@@ -35,7 +35,7 @@
                 <a href="#" class="dropdown-item text-white">Bathrooms</a>
                 <hr class="text-white">
                 {% for item in categories %}
-                <a href="#?shop_filter=Bathroom&category={{ item }}" class="dropdown-item text-white">{{ item|title }}</a>
+                <a href="{% url 'products' %}?shop_filter=bathroom&category={{ item }}" class="dropdown-item text-white">{{ item|title }}</a>
                 {% endfor %}
             </div>
         </li>

@@ -1,11 +1,13 @@
 from django.http import HttpResponse
-from django.shortcuts import render
+from django.shortcuts import render, redirect, reverse
+from django.template.loader import render_to_string
 from django.contrib.postgres import search
 from django.core.paginator import Paginator, EmptyPage
 from django.contrib.postgres.search import SearchVector, SearchRank
 from .models import Product, Shop
+from website.settings import MEDIA_URL
 import re
-from django.template import RequestContext
+import json
 
 
 def products(request):
@@ -19,7 +21,6 @@ def products(request):
 
     # GET: setup shop_filter & categories
     if request.GET:
-        print('in get')
         if 'page' in request.GET:
             page_number = request.GET.get('page')
         if 'shop_filter' in request.GET:
@@ -84,3 +85,39 @@ def products(request):
     }
 
     return render(request, template, context)
+
+
+def get_modal_data(request):
+    """ Get data for product via sku """
+    if request.method == 'POST':
+        if 'product_sku' in request.POST:
+            product_sku = request.POST['product_sku']
+            # Get product, pass it to product_modal template and turn to string
+            if not Product.objects.filter(sku=product_sku).exists():
+                json_response = json.dumps({'status': 'invalid_product'})
+                return HttpResponse(json_response,
+                                    content_type='application/json')
+
+            # Get product and its data
+            product = Product.objects.get(sku=product_sku)
+            modal_string = render_to_string(
+                'products/includes/product_modal.html',
+                {
+                    'sku': product.sku,
+                    'name': product.name,
+                    'description': product.description,
+                    'image_url': product.image_url,
+                    'price': product.price,
+                    'brand': product.brand,
+                    'MEDIA_URL': MEDIA_URL,
+                })
+
+            json_response = json.dumps({'status': 'valid_product',
+                                        'modal': modal_string, })
+
+            return HttpResponse(json_response, content_type='application/json')
+        else:
+            json_response = json.dumps({'status': 'invalid_request'})
+            return HttpResponse(json_response, content_type='application/json')
+    else:
+        return redirect(reverse('home'))

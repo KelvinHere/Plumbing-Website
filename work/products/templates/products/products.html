@@ -28,6 +28,7 @@
 </div>
 {% endif %}
 
+<!--- Product Content --->
 <div class="container">
     <div class="row">
         <div class="col">
@@ -89,5 +90,36 @@
     </div>
 </div>
 {% endif %}
+
+<!-- Image Modal -->
+<div id="modal-container">
+</div>
+
+{% endblock %}
+
+{% block postloadjs %}
+{{ block.super }}
+<script type="text/javascript">
+    // Handle modal requests via AJAX
+    function get_modal_data(product_sku) {
+        let csrfToken = '{{ csrf_token }}';
+        event.preventDefault();
+        $.ajax({
+            type:"POST",
+            url:"/products/get_modal_data/",
+            data:{  
+                'csrfmiddlewaretoken': csrfToken,
+                'product_sku': product_sku,
+            },
+            success: function(json_response){
+                if (json_response.status == 'valid_product'){
+                    $('#modal-container').empty();
+                    $('#modal-container').html(json_response.modal);
+                    $('#moreDetailsModal').modal('show');
+                }
+            }
+        });
+    }
+</script>
 
 {% endblock %}

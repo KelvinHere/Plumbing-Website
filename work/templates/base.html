@@ -54,9 +54,9 @@
                         <div class="input-group w-100">
                             <div class="input-group-prepend">
                                 <select name="shop-filter" class="shop-filter-selector text-dg-orange bg-dgorange no-select" id="shop-filter">
-                                    <option class="bg-dgblue text-white pl-2 my-3" value="All" {% if shop_filter == 'All' %}selected{% endif %}>All</option>
-                                    <option class="bg-dgblue text-white pl-2 my-3" value="Bathroom" {% if shop_filter == 'Bathroom' %}selected{% endif %}>Bathroom</option>
-                                    <option class="bg-dgblue text-white pl-2 my-3" value="Heating" {% if shop_filter == 'Heating' %}selected{% endif %}>Heating</option>
+                                    {% for shop in shops %}
+                                    <option class="bg-dgblue text-white pl-2 my-3" value="{{ shop }}" {% if shop == shop_filter %}selected{% endif %}>{{ shop|title }}</option>
+                                    {% endfor %}
                                 </select>
                             </div>
                             <input class="form-control rounded-0 query-text-input" type="text" name="q" placeholder="Search our site" value="{% if q %}{{ q }}{% endif %}">

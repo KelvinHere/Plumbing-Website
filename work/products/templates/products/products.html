@@ -8,6 +8,26 @@
 
 {% block content %}
 
+<!-- Pagination Buttons -->
+{% if products.paginator.num_pages > 1 %}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col d-flex justify-content-center">
+            <div class="d-flex align-items-center">
+                <a class="btn btn-white" href="{% url 'products' %}{% if products.has_previous %}?page={{ products.previous_page_number }}{% else %}?page={{ products.number }}{% endif %}&{% if shop_filter %}shop_filter={{ shop_filter }}{% endif %}&{% if category %}category={{ category }}{% endif %}"
+                    tabindex="-1" aria-disabled="true">
+                    <p class="m-0"><i class="fas fa-chevron-circle-left fa-2x text-dgorange"></i></p>
+                </a>
+                <p class="bg-light text-dgblue mb-0">{{ products.number }} of {{ products.paginator.num_pages}}</p>
+                <a class="btn btn-white" href="{% url 'products' %}{% if products.has_next %}?page={{ products.next_page_number }}{% else %}?page={{ products.number }}{% endif %}&{% if shop_filter %}shop_filter={{ shop_filter }}{% endif %}&{% if category %}category={{ category }}{% endif %}">
+                    <p class="m-0"><i class="fas fa-chevron-circle-right fa-2x text-dgorange"></i></p>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+
 <div class="container">
     <div class="row">
         <div class="col">
@@ -50,6 +70,24 @@
     </div>
 </div>
 
-
+<!-- Pagination Buttons -->
+{% if products.paginator.num_pages > 1 %}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col d-flex justify-content-center">
+            <div class="d-flex align-items-center">
+                <a class="btn btn-white" href="{% url 'products' %}{% if products.has_previous %}?page={{ products.previous_page_number }}{% else %}?page={{ products.number }}{% endif %}&{% if shop_filter %}shop_filter={{ shop_filter }}{% endif %}&{% if category %}category={{ category }}{% endif %}"
+                    tabindex="-1" aria-disabled="true">
+                    <p class="m-0"><i class="fas fa-chevron-circle-left fa-2x text-dgorange"></i></p>
+                </a>
+                <p class="bg-light text-dgblue mb-0">{{ products.number }} of {{ products.paginator.num_pages}}</p>
+                <a class="btn btn-white" href="{% url 'products' %}{% if products.has_next %}?page={{ products.next_page_number }}{% else %}?page={{ products.number }}{% endif %}&{% if shop_filter %}shop_filter={{ shop_filter }}{% endif %}&{% if category %}category={{ category }}{% endif %}">
+                    <p class="m-0"><i class="fas fa-chevron-circle-right fa-2x text-dgorange"></i></p>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
 
 {% endblock %}

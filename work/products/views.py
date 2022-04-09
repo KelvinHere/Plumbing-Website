@@ -1,20 +1,26 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 from django.contrib.postgres import search
+from django.core.paginator import Paginator, EmptyPage
 from django.contrib.postgres.search import SearchVector, SearchRank
+from .models import Product, Shop
 import re
+from django.template import RequestContext
 
-from .models import Product
 
 def products(request):
 
     # Initialise page
-    shop_filter = 'All'
-    shop_filter_list = ['All', 'Bathroom', 'Heating', 'Plumbing']
+    page_number = 1
+    products_per_page = 40
+    shop_filter = 'all'
+    shop_filter_list = list(Shop.objects.values_list('name', flat=True))
     category = request.session.get('category', '')
 
     # GET: setup shop_filter & categories
     if request.GET:
+        if 'page' in request.GET:
+            page_number = request.GET.get('page')
         if 'shop_filter' in request.GET:
             shop_filter = request.GET.get('shop_filter')
             request.session['shop_filter'] = shop_filter
@@ -26,8 +32,8 @@ def products(request):
     if request.method == 'POST':
         # Get and set shop
         if request.POST.get('shop-filter') in shop_filter_list: # If shop is valid
-            shop_filter = request.POST.get('shop-filter')       # Set shop
-            request.session['shop_filter'] = shop_filter        # Store selection in sessions
+            shop_filter = request.POST.get('shop-filter')       
+            request.session['shop_filter'] = shop_filter
         # Get and set Query
         if request.POST.get('q'):
             query = request.POST.get('q')
@@ -41,7 +47,7 @@ def products(request):
     products = Product.objects.all()
 
     # Filter by shop
-    if shop_filter != 'All':
+    if shop_filter != 'all':
         products = products.filter(shop__name=shop_filter)
 
     # Rank results by user query
@@ -59,9 +65,18 @@ def products(request):
     else:
         products = products.order_by('id')
 
+    # Pagination
+    p = Paginator(products, products_per_page)
+    page_object = p.get_page(page_number)
+
+    try:
+        page_object = p.page(page_number)
+    except EmptyPage:
+        page_object = p.page(1)
+
     template = 'products/products.html'
     context = {
-        'products': products,
+        'products': page_object,
         'category': category,
     }
 

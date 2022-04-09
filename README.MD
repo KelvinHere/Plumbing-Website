@@ -12,7 +12,13 @@ This project can run in three separate ways to increase development speed.  See 
 ---
 ### **1. Local - No Docker**
 
-Runs without container using Sqlite database
+Runs without container using postgres.  Needs postgres installed and running
+
+Create the postgres database, from postgres cli as below
+```
+CREATE USER mydbuser WITH PASSWORD 'mydbpass';
+CREATE DATABASE mydb;
+```
 
  create an ```.env``` file containing
 ```
@@ -22,6 +28,12 @@ DJANGO_ALLOWED_HOSTS=localhost 127.0.0.1 [::1]
 SUPERUSER_USERNAME=admin-username-here
 SUPERUSER_PASSWORD=admin-pass-here
 SUPERUSER_EMAIL=admin-email-here
+SQL_ENGINE=django.db.backends.postgresql_psycopg2
+SQL_USER=mydbuser
+SQL_DATABASE=mydb
+SQL_PASSWORD=mydbpass
+SQL_HOST=localhost
+SQL_PORT=5432
 ```
 
 First time setup

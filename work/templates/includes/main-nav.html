@@ -24,7 +24,6 @@
                 <a href="#" class="dropdown-item text-white">Renewables</a>
                 <a href="#" class="dropdown-item text-white">Stoves</a>
                 <a href="#" class="dropdown-item text-white">Heating Spares</a>
-
             </div>
         </li>
         
@@ -36,7 +35,7 @@
                 <a href="#" class="dropdown-item text-white">Bathrooms</a>
                 <hr class="text-white">
                 {% for item in categories %}
-                <a href="#?shop_filter=Bathroom&category={{ item }}" class="dropdown-item text-white">{{ item }}</a>
+                <a href="#?shop_filter=Bathroom&category={{ item }}" class="dropdown-item text-white">{{ item|title }}</a>
                 {% endfor %}
             </div>
         </li>

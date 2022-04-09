@@ -3,9 +3,7 @@ from products.models import Product
 import json
 
 def home(request):
-    data = Product.objects.all()
+    request.session['shop_filter'] = 'All'
     template = "home/index.html"
-    context = {
-        'data': data,
-    }
-    return render(request, template, context)
+
+    return render(request, template)

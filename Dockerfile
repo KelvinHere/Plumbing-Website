@@ -7,7 +7,7 @@ ENV PYTHONUNBUFFERED 1
 
 # Install psycopg2 for postgresql
 RUN apk update \
-    && apk add postgresql-dev gcc python3-dev musl-dev
+    && apk add postgresql-dev gcc python3-dev musl-dev libffi-dev
 
 # Install requirements
 RUN pip3 install --upgrade pip

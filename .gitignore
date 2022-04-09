@@ -9,3 +9,4 @@ db.sqlite3
 core.python*
 venv/
 migrations/
+work/media/sonas

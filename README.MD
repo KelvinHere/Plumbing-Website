@@ -47,7 +47,8 @@ python manage.py loaddata categories.json
 python manage.py loaddata productssample.json
 ```
 
-To run ``` python manage.py runserver ```
+- Start postgres ``` sudo service postgresql start ```
+- To run ``` python manage.py runserver ```
 
 ---
 ### **2. Development - Dockerized**

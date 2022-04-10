@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+<div class="container header-container">
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row contact-info mx-md-3 justify-content-around">
+        <div class="col-12 col-md-7 mb-3">
+            <h2 class="mb-4">Conact Us:</h2>
+            <div class="mx-3 mb-3">
+                <div>
+                    <i class="fas fa-phone-square-alt fa-lg mb-3"></i>
+                    <span><strong> Phone : </strong></span>
+                    <a href="tel:0749722052" target="_blank" class="mb-2"><strong></strong>(074) 972 2052</a>
+                </div>
+                <div>
+                    <i class="fas fa-envelope fa-lg mb-3"></i>
+                    <span><strong> E-mail : </strong></span>
+                    <a href="mailto:sales@donegalplumbing.ie" target="_blank" class="mb-2">sales@donegalplumbing.ie</a>
+                </div>
+                <div>
+                    <i class="fab fa-facebook-square fa-lg mb-3"></i>
+                    <span><strong> Facebook : </strong></span>
+                    <a href="https://www.facebook.com/donegalplumbingandheating/" target="_blank" class="mb-3">Donegal
+                        Plumbing & Heating</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-4 mb-3">
+            <div class="location-container">
+                <h2 class="mb-3">Location:</h2>
+                <div class="mx-3">
+                    <p class="mb-1">Old Laghey Rd,</p>
+                    <p class="mb-1">Donegal,</p>
+                    <p class="mb-1">Co Donegal</p>
+                    <p class="mb-4">F94 Y827</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 mb-3">
+            <div class="map-responsive">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2308.25605888825!2d-8.0996938839859!3d54.65231708378778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485fa84902ada9f9%3A0xe0df48651d70f05f!2sDonegal%20Plumbing%20%26%20Heating%20Supplies!5e0!3m2!1sen!2sie!4v1623842629197!5m2!1sen!2sie"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </div>
+
+</div>
+{% endblock %}

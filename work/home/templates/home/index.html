@@ -14,7 +14,6 @@
         <li data-target="#carouselleCaptions" data-slide-to="1"></li>
         <li data-target="#carouselleCaptions" data-slide-to="2"></li>
         <li data-target="#carouselleCaptions" data-slide-to="3"></li>
-        <li data-target="#carouselleCaptions" data-slide-to="4"></li>
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
@@ -45,7 +44,7 @@
             <img src="{{ MEDIA_URL }}website/carousel-specials-mobile.jpg" class="w-100 carousel-image mobile-image" alt="...">
             <img src="{{ MEDIA_URL }}website/carousel-specials.jpg" class="w-100 carousel-image desktop-image" alt="...">
             <div class="carousel-caption">
-                <a href="#" class="btn btn-dgorange"><h5 class="m-0">Special Offer</h5></a>
+                <a href="{% url 'specials' %}" class="btn btn-dgorange"><h5 class="m-0">Special Offer</h5></a>
                 <p class="text-white mt-1 mb-3 mb-md-2">View our current special offers.</p>
             </div>
         </div>

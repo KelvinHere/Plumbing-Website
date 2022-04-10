@@ -20,6 +20,6 @@ python manage.py ensure_initial_users
 python manage.py loaddata brands.json
 python manage.py loaddata shops.json
 python manage.py loaddata categories.json
-python manage.py loaddata productssample.json
+python manage.py loaddata products.json
 
 exec "$@"

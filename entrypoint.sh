@@ -15,6 +15,7 @@ fi
 # Script
 python manage.py flush --no-input
 python manage.py makemigrations --no-input
+python manage.py migrate --no-input
 python manage.py makemigrations products --no-input
 python manage.py migrate --no-input
 python manage.py ensure_initial_users

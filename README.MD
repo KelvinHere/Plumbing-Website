@@ -118,3 +118,8 @@ Logs
 ```
 docker-compose -f docker-compose.prod.yml logs -f
 ```
+
+### Helpers
+
+* Connect to docker logs ``` docker-compose -f CURRENT_DOCKER_YML.yml logs -f ```
+* Builds / deploys detached ``` docker-compose -f docker-compose.prod.yml up -d --build ```

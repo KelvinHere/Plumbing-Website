@@ -1,7 +1,8 @@
 # E-commerce Website
 
-A website with multiple shops (Plumbing, Heating, Bathrooms)
+A website with multiple shops (Plumbing, Heating, Bathrooms).  Contained in docker, deployed with Github Actions, this Django app uses a Postgres database with full text search to retrieve search queries.
 
+---
 ## Features
 
 - Postgres database with
@@ -16,6 +17,25 @@ A website with multiple shops (Plumbing, Heating, Bathrooms)
     - Search by name
     - Or any combination of the above
 
+- Search Example
+    - Item = **"Slate Anthracite 1200x900mm LH Offset Quadrant Shower Tray & Waste"**
+        - Searches that will include this item in results
+            - Slate Anthracite 1200x900 lh quadrant shower tray
+            - Slate Anthracite 1200 900 lh quad tray
+            - slat anth 1200 900 lh qua tr
+    - NOTE: This item will be ranked very high, with items not including some of the search terms appearing much lower down in the results.
+---
+## To-Do
+
+- Automated testing
+- Add items in heating and plumbing shops
+- Format account pages & rig up emails to confirm accounts
+- Create a quote app (shopping basket) for products
+- Update placeholder images with final content on carousel
+- Back buttons for pages
+- Buttons to remove shop-filter / category / query
+
+---
 ## Technologies
 
 - [Postgres](https://www.postgresql.org/)
@@ -26,7 +46,7 @@ A website with multiple shops (Plumbing, Heating, Bathrooms)
 - [Github Actions](https://github.com/features/actions/)
 - Javascript / Python / YML
 
-
+---
 ## Deployment
 
 * Prerequisites
@@ -146,7 +166,8 @@ Logs
 docker-compose -f docker-compose.prod.yml logs -f
 ```
 
-### Helpers
+---
+## Helpers
 
 #### Production
 * Connect to docker logs ``` docker-compose -f docker-compose.prod.yml logs -f ```

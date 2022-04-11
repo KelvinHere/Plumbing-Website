@@ -32,7 +32,7 @@
                 Bathroom
             </a>
             <div class="dropdown-menu border-0 bg-dgblue" aria-labelledby="bathroom-link">
-                <a href="#" class="dropdown-item text-white">Bathrooms</a>
+                <a href="{% url 'bathroom' %}" class="dropdown-item text-white">Bathrooms</a>
                 <hr class="text-white">
                 {% for item in categories %}
                 <a href="{% url 'products' %}?shop_filter=bathroom&category={{ item }}&q=" class="dropdown-item text-white">{{ item|title }}</a>

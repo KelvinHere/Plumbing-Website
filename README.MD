@@ -1,4 +1,31 @@
-# Website
+# E-commerce Website
+
+A website with multiple shops (Plumbing, Heating, Bathrooms)
+
+## Features
+
+- Postgres database with
+    - Full text search
+    - Partial word match
+    - Search weighting
+    - Search ranking
+
+- Filters
+    - Search by shop
+    - Search by category
+    - Search by name
+    - Or any combination of the above
+
+## Technologies
+
+- [Postgres](https://www.postgresql.org/)
+- [Django](https://www.djangoproject.com/)
+- [Bootstrap4](https://getbootstrap.com/)
+- [Docker](https://www.docker.com/)
+- [Allauth](https://django-allauth.readthedocs.io/en/latest/installation.html)
+- [Github Actions](https://github.com/features/actions/)
+- Javascript / Python / YML
+
 
 ## Deployment
 

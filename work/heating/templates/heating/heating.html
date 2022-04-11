@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+<div class="container header-container">
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h2>Heating</h2>
+            <p>Donegal Plumbing & Heating can cater to all your heating needs, from solid fuel stoves to heat pumps and renewables.  Select from the options below for more details.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Page Cards -->
+<div class="container mt-2">
+    <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-3 py-2">
+            <div class="card">
+                <img class="card-img-top" src="{{ MEDIA_URL }}website/heating/card-heatpump.jpg" alt="bathroom card image">
+                <div class="card-body text-center">
+                    <a href="{% url 'heatpumps' %}" class="btn btn-outline-dg w-85"><strong>Heat Pumps</strong></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 py-2">
+            <div class="card">
+                <img class="card-img-top" src="{{ MEDIA_URL }}website/heating/card-stove.jpg" alt="heating card image">
+                <div class="card-body text-center">
+                    <a href="{% url 'stoves' %}" class="btn btn-outline-dg w-85"><strong>Stoves</strong></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 py-2">
+            <div class="card">
+                <img class="card-img-top" src="{{ MEDIA_URL }}website/heating/card-renewables.jpg" alt="heating card image">
+                <div class="card-body text-center">
+                    <a href="{% url 'renewables' %}" class="btn btn-outline-dg w-85"><strong>Renewables</strong></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 py-2">
+            <div class="card">
+                <img class="card-img-top" src="{{ MEDIA_URL }}website/heating/card-heatingspares.jpg" alt="parts card image">
+                <div class="card-body text-center">
+                    <a href="{% url 'heatingspares' %}" class="btn btn-outline-dg w-85"><strong>Heating Spares</strong></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

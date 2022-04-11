@@ -18,12 +18,12 @@
                 Heating
             </a>
             <div class="dropdown-menu border-0 bg-dgblue" aria-labelledby="heating-link">
-                <a href="#" class="dropdown-item text-white">Heating Information</a>
+                <a href="{% url 'heating' %}" class="dropdown-item text-white">Heating Information</a>
                 <hr class="text-dg-orange">
-                <a href="#" class="dropdown-item text-white">Heatpumps</a>
-                <a href="#" class="dropdown-item text-white">Renewables</a>
-                <a href="#" class="dropdown-item text-white">Stoves</a>
-                <a href="#" class="dropdown-item text-white">Heating Spares</a>
+                <a href="{% url 'heatpumps' %}" class="dropdown-item text-white">Heatpumps</a>
+                <a href="{% url 'renewables' %}" class="dropdown-item text-white">Renewables</a>
+                <a href="{% url 'stoves' %}" class="dropdown-item text-white">Stoves</a>
+                <a href="{% url 'heatingspares' %}" class="dropdown-item text-white">Heating Spares</a>
             </div>
         </li>
         

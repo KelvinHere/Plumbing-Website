@@ -28,7 +28,7 @@
             <img src="{{ MEDIA_URL }}website/carousel-heating-mobile.jpg" class="w-100 carousel-image mobile-image" alt="...">
             <img src="{{ MEDIA_URL }}website/carousel-heating.jpg" class="w-100 carousel-image desktop-image" alt="...">
             <div class="carousel-caption">
-                <a href="#" class="btn btn-dgorange"><h5 class="m-0">Heating</h5></a>
+                <a href="{% url 'heating' %}" class="btn btn-dgorange"><h5 class="m-0">Heating</h5></a>
                 <p class="text-white mt-1 mb-3 mb-md-2">View our range of heating options.</p>
             </div>
         </div>
@@ -81,7 +81,7 @@
             <div class="card">
                 <img class="card-img-top" src="{{ MEDIA_URL }}website/card-home-heating.jpg" alt="heating card image">
                 <div class="card-body text-center">
-                    <a href="#" class="btn btn-outline-dg w-75"><strong>Heating</strong></a>
+                    <a href="{% url 'heating' %}" class="btn btn-outline-dg w-75"><strong>Heating</strong></a>
                 </div>
             </div>
         </div>

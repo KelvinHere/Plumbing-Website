@@ -19,6 +19,7 @@ def products(request):
     shop_filter_list = list(Shop.objects.values_list('name', flat=True))
     category = request.session.get('category', '')
 
+
     # GET: setup shop_filter & categories
     if request.GET:
         if 'page' in request.GET:
@@ -54,18 +55,18 @@ def products(request):
     if category:
         products = products.filter(category__name=category)
 
-    # Rank results by user query
+    # Format query and rank results by weight / rank
     if request.session.get('q'):
         query = request.session.get('q')
-        # Grab numbers matching the format 800x1000
-        measurements = re.compile(r'(\d{3,})\s(\d{3,})')
-        matches = measurements.findall(query)
+        # Grab numbers measurements like 800 1000 and sub to format 800x1000
+        query = re.sub(r'(\d{3,})\s(\d{3,})', '\\1x\\2', query)
         # Add postgres partial word search
         query = re.sub(r'\s+', ':* & ', query)
         query += ':*'
-        searchQuery = search.SearchQuery(query, search_type='raw')
+        query = search.SearchQuery(query, search_type='raw')
         vector = SearchVector('sku', weight='A') + SearchVector('name', weight='B') + SearchVector('description', weight='C')
-        products = products.annotate(rank=SearchRank(vector, query)).filter(rank__gte=0.1).order_by('-rank')
+        products = products.annotate(
+            rank=SearchRank(vector, query)).filter(rank__gte=0.1).order_by('-rank')
     else:
         products = products.order_by('id')
 

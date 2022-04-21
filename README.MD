@@ -2,6 +2,8 @@
 
 A website with multiple shops (Plumbing, Heating, Bathrooms).  Contained in docker, deployed with Github Actions, this Django app uses a Postgres database with full text search to retrieve search queries.
 
+[Website Link](http://46.101.60.151:8000/)
+
 Items currently only in "Bathroom" shop
 
 ---

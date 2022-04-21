@@ -21,6 +21,8 @@ Items currently only in "Bathroom" shop
     - Search by name
     - Or any combination of the above
 
+- Categories are searchable and automatically generated on the website via the database
+
 - Search Example
     - Item = **"Slate Anthracite 1200x900mm LH Offset Quadrant Shower Tray & Waste"**
         - Searches that will include this item in results

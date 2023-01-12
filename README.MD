@@ -2,6 +2,10 @@
 
 A website with multiple shops (Plumbing, Heating, Bathrooms).  Contained in docker, deployed with Github Actions, this Django app uses a Postgres database with full text search to retrieve search queries.
 
+[Website Link](http://167.99.219.161:8000/)
+
+Items currently only in "Bathroom" shop
+
 ---
 ## Features
 
@@ -16,6 +20,8 @@ A website with multiple shops (Plumbing, Heating, Bathrooms).  Contained in dock
     - Search by category
     - Search by name
     - Or any combination of the above
+
+- Categories are searchable and automatically generated on the website via the database
 
 - Search Example
     - Item = **"Slate Anthracite 1200x900mm LH Offset Quadrant Shower Tray & Waste"**

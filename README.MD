@@ -22,7 +22,7 @@ A website with multiple shops (Plumbing, Heating, Bathrooms).  Contained in dock
         - Searches that will include this item in results
             - Slate Anthracite 1200x900 lh quadrant shower tray
             - Slate Anthracite 1200 900 lh quad tray
-            - slat anth 1200 900 lh qua tr
+            - slat anthr 1200 900 lh qua tr
     - NOTE: This item will be ranked very high, with items not including some of the search terms appearing much lower down in the results.
 ---
 ## To-Do
